@@ -1,4 +1,4 @@
-#  robotframework-dictkeyallpaths Library
+#  DictAllPaths Library
 
 robot framework - To get all paths of dictionary
 
