@@ -72,6 +72,10 @@ pip install robotframework-dictkeyallpaths
 # - How to use keyword in robotframework
 # keyword >> 'Get Dict Paths'
 # Returns all key paths of the given dictionary as a list.
+*** Settings ***
+Library    DictAllPaths
+
+*** Test Cases ***
 Test case get all paths of dictionary
     ${dictData}=    Evaluate    json.loads("""${json_string}""")    json
     @{allDictKeys}=    Get Dict Paths    ${dictData}
